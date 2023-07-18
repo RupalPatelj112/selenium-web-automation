@@ -1,0 +1,43 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Searching in google",
+        "description": "",
+        "id": "ensure-user-landing-on-correct-platform;searching-in-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Launch the google web page",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Ensure user landing on correct platform",
+    "description": "\nAs a customer\nI want to search in google about platform\nso I can select zdnet.com",
+    "id": "ensure-user-landing-on-correct-platform",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@google"
+      }
+    ]
+  }
+]
